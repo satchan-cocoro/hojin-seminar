@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>髙橋さつき｜公認心理師・人材育成講師（企業・団体向け研修）</title>
+<meta name="description" content="若手が「ここで働き続けたい」と思える職場づくり。公認心理師・髙橋さつきが、エニアグラム×行動分析学で若手との関わり方をお伝えする法人向けセミナーです。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="髙橋さつき｜公認心理師・人材育成講師">
+<meta property="og:description" content="人が育つ声かけで、働き続けたくなる職場へ。エニアグラム×応用行動分析学の企業・団体向け研修。">
+<meta property="og:url" content="https://satchan-cocoro.github.io/hojin-seminar/">
+<meta property="og:image" content="https://satchan-cocoro.github.io/hojin-seminar/img/01_hyoshi.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ai:#1F3A5A; --ai-l:#E6ECF2; --kinari:#F7F2E7; --ki:#C9A27A; --ki-d:#9C7A55;
+  --shu:#C8553D; --ink:#2B2B2B; --soft:#5E6773;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Zen Kaku Gothic New',sans-serif;color:var(--ink);background:#fff;line-height:1.9;font-size:16px;-webkit-text-size-adjust:100%}
+img{max-width:100%;display:block}
+a{color:var(--ai)}
+.mincho{font-family:'Shippori Mincho',serif}
+.wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+.em{color:var(--shu)}
+
+/* ヘッダー */
+header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.94);backdrop-filter:blur(6px);border-bottom:1px solid #eee}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{font-family:'Shippori Mincho',serif;font-weight:700;color:var(--ai);font-size:18px;text-decoration:none;line-height:1.3}
+.logo small{display:block;font-size:11px;color:var(--soft);font-family:'Zen Kaku Gothic New',sans-serif;font-weight:500}
+header nav a{font-size:14px;margin-left:20px;text-decoration:none;color:var(--ink)}
+header nav a.btn-s{background:var(--shu);color:#fff;padding:7px 16px;border-radius:999px}
+@media(max-width:760px){header nav a:not(.btn-s){display:none}}
+
+/* ファーストビュー */
+.hero{background:var(--kinari);padding:56px 0 64px}
+.hero .wrap{display:grid;grid-template-columns:1.05fr 1fr;gap:44px;align-items:center}
+.eyebrow{display:inline-block;font-size:13px;letter-spacing:.12em;color:var(--ki-d);border-bottom:2px solid var(--ki);margin-bottom:16px;font-weight:700}
+.hero h1{font-family:'Shippori Mincho',serif;color:var(--ai);font-size:40px;line-height:1.45;font-weight:800}
+.hero .lead{margin:18px 0 26px;color:var(--ai);font-weight:500}
+.hero .pic img{border-radius:14px;box-shadow:0 10px 30px rgba(31,58,90,.12)}
+.by{margin-top:22px;font-size:14px;color:var(--soft)}
+.by b{color:var(--ai);font-size:17px;margin-left:6px}
+@media(max-width:820px){.hero .wrap{grid-template-columns:1fr;gap:28px}.hero h1{font-size:27px}.hero .pic{order:-1}}
+
+.btn{display:inline-block;background:var(--shu);color:#fff;text-decoration:none;font-weight:700;padding:14px 30px;border-radius:999px;box-shadow:0 4px 0 #a2402c;transition:transform .1s}
+.btn:active{transform:translateY(2px);box-shadow:0 2px 0 #a2402c}
+.btn.ghost{background:#fff;color:var(--ai);border:2px solid var(--ai);box-shadow:none}
+
+/* セクション共通 */
+section{padding:76px 0}
+section.tint{background:var(--kinari)}
+section.blue{background:var(--ai-l)}
+h2{font-family:'Shippori Mincho',serif;color:var(--ai);font-size:30px;line-height:1.5;margin-bottom:30px;font-weight:800}
+h2 .eyebrow{display:block;width:max-content;margin-bottom:10px}
+@media(max-width:760px){section{padding:56px 0}h2{font-size:23px}}
+
+/* お悩み */
+.worry{display:grid;grid-template-columns:1fr 320px;gap:36px;align-items:center}
+.worry ul{list-style:none;display:grid;gap:14px}
+.worry li{background:#fff;border:2px solid var(--ai-l);border-radius:12px;padding:14px 20px 14px 48px;position:relative;font-weight:700;font-size:18px}
+.worry li::before{content:"✓";position:absolute;left:18px;color:var(--shu);font-weight:800}
+.worry .after{margin-top:24px;font-size:18px}
+@media(max-width:760px){.worry{grid-template-columns:1fr}.worry img{max-width:240px;margin:0 auto}}
+
+/* データ */
+.data{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.data>div{background:#fff;border-radius:14px;padding:26px 22px;text-align:center;border-top:6px solid var(--ai)}
+.data .num{font-family:'Shippori Mincho',serif;font-size:50px;color:var(--shu);font-weight:800;line-height:1.1}
+.data .num small{font-size:22px}
+.data p{margin-top:10px;font-size:15px}
+.data .vs{margin-top:10px;font-size:14px;color:var(--soft);background:var(--kinari);border-radius:8px;padding:6px}
+.data .src{margin-top:10px;font-size:11px;color:var(--soft)}
+.message{margin-top:36px;text-align:center;font-family:'Shippori Mincho',serif;font-size:24px;font-weight:700;color:var(--ai);line-height:1.7}
+@media(max-width:760px){.data{grid-template-columns:1fr}.message{font-size:20px}}
+
+/* 3回セミナー */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.step{background:#fff;border-radius:14px;padding:26px 22px;border:2px solid var(--ai-l);display:flex;flex-direction:column}
+.step .k{font-size:13px;color:var(--ki-d);font-weight:700;letter-spacing:.1em}
+.step .t{font-family:'Shippori Mincho',serif;font-size:32px;color:var(--ai);font-weight:800;line-height:1.3}
+.step .tool{display:inline-block;margin:6px 0 12px;font-size:13px;background:var(--ai);color:#fff;border-radius:6px;padding:2px 10px;width:max-content}
+.step p{font-size:15px;flex:1}
+.step .left{margin-top:16px;background:var(--kinari);border-radius:10px;padding:12px;text-align:center;font-weight:700;color:var(--ai)}
+.step .left small{display:block;font-size:11px;color:var(--ki-d);font-weight:700}
+@media(max-width:760px){.steps{grid-template-columns:1fr}}
+.gaiyo{margin-top:34px;display:grid;grid-template-columns:1fr 340px;gap:32px;align-items:center}
+.gaiyo dl{display:grid;grid-template-columns:110px 1fr;background:#fff;border-radius:12px;overflow:hidden;border:1px solid var(--ai-l)}
+.gaiyo dt,.gaiyo dd{padding:12px 16px;border-bottom:1px solid var(--ai-l);font-size:15px}
+.gaiyo dt{background:var(--ai-l);color:var(--ai);font-weight:700}
+.gaiyo dl>*:nth-last-child(-n+2){border-bottom:none}
+@media(max-width:760px){.gaiyo{grid-template-columns:1fr}.gaiyo dl{grid-template-columns:88px 1fr}}
+
+/* お試し */
+.trial{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:center;background:#fff;border-radius:18px;padding:36px;border:3px solid var(--shu)}
+.trial .lab{font-weight:700;color:var(--shu);font-size:15px}
+.trial .ttl{font-family:'Shippori Mincho',serif;font-size:28px;color:var(--ai);font-weight:800;line-height:1.4}
+.trial .price{font-family:'Shippori Mincho',serif;font-size:46px;color:var(--shu);font-weight:800;margin:10px 0 4px;line-height:1.2}
+.trial .price small{font-size:17px;color:var(--ink)}
+.trial ul{margin:14px 0 22px 1.2em;font-size:15px}
+.trial img{border-radius:12px}
+@media(max-width:760px){.trial{grid-template-columns:1fr;padding:24px 20px}.trial .price{font-size:38px}}
+
+/* そのほかのメニュー */
+.menu{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.menu>div{background:#fff;border-radius:14px;padding:22px 24px;border-left:6px solid var(--ki)}
+.menu h3{font-size:18px;color:var(--ai);margin-bottom:6px}
+.menu p{font-size:15px}
+.menu .note{font-size:13px;color:var(--soft);margin-top:6px}
+.menu .ai{grid-column:1/-1;border-left-color:var(--shu)}
+.menu .ai h3 span{font-size:11px;background:var(--shu);color:#fff;border-radius:4px;padding:2px 7px;margin-left:8px;vertical-align:middle}
+.menu .ai ul{margin:8px 0 0 1.2em;font-size:15px;display:grid;grid-template-columns:1fr 1fr;gap:2px 28px}
+.menu-foot{margin-top:22px;text-align:center;color:var(--soft)}
+@media(max-width:760px){.menu{grid-template-columns:1fr}.menu .ai ul{grid-template-columns:1fr}}
+
+/* 講師紹介 */
+.prof{display:grid;grid-template-columns:260px 1fr;gap:44px;align-items:start}
+.prof .photo img{border-radius:50%;border:6px solid #fff;box-shadow:0 8px 24px rgba(31,58,90,.15)}
+.prof .name{font-family:'Shippori Mincho',serif;font-size:32px;color:var(--ai);font-weight:800;line-height:1.3}
+.prof .name small{font-size:15px;color:var(--soft);font-family:'Zen Kaku Gothic New',sans-serif;margin-left:10px;font-weight:500}
+.prof .role{display:inline-block;background:var(--ai);color:#fff;font-size:14px;border-radius:6px;padding:2px 12px;margin:8px 0 18px}
+.prof .story p{margin-bottom:14px}
+.prof .catch{font-family:'Shippori Mincho',serif;font-size:21px;color:var(--ai);font-weight:700;line-height:1.6;margin-bottom:16px}
+.nums{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin:24px 0}
+.nums>div{background:#fff;border-radius:12px;padding:14px;text-align:center}
+.nums b{font-family:'Shippori Mincho',serif;font-size:34px;color:var(--shu);line-height:1.2}
+.nums b small{font-size:16px}
+.nums span{display:block;font-size:13px;color:var(--soft)}
+.career{background:#fff;border-radius:12px;padding:20px 24px}
+.career h3{font-size:15px;color:var(--ai);margin-bottom:8px}
+.career ul{list-style:none;font-size:14.5px}
+.career li{padding:6px 0 6px 18px;border-bottom:1px dashed #e3e3e3;position:relative}
+.career li:last-child{border-bottom:none}
+.career li::before{content:"";position:absolute;left:2px;top:15px;width:7px;height:7px;border-radius:50%;background:var(--ki)}
+@media(max-width:760px){.prof{grid-template-columns:1fr;gap:22px}.prof .photo{max-width:200px;margin:0 auto}.prof .name{font-size:27px;text-align:center}.prof .role-wrap{text-align:center}}
+
+/* 診断 */
+.shindan{display:flex;gap:28px;align-items:center;background:#fff;border-radius:16px;padding:28px 32px}
+.shindan .t{font-family:'Shippori Mincho',serif;font-size:22px;color:var(--ai);font-weight:700}
+.shindan p{font-size:15px;margin:6px 0 14px}
+.shindan img{width:200px;border-radius:12px;flex-shrink:0}
+@media(max-width:760px){.shindan{flex-direction:column;padding:22px}.shindan img{width:100%}}
+
+/* お問い合わせ */
+#contact{background:var(--ai);color:#fff;text-align:center}
+#contact h2{color:#fff}
+#contact p{max-width:640px;margin:0 auto 14px}
+.mailbox{display:inline-block;background:#fff;color:var(--ai);border-radius:14px;padding:24px 32px;margin:18px 0 10px}
+.mailbox .addr{font-size:20px;font-weight:700;word-break:break-all;margin-bottom:14px}
+.mailbox .write{font-size:13.5px;color:var(--soft);text-align:left;margin-top:16px;line-height:1.8}
+#contact .small{font-size:13px;opacity:.85}
+
+footer{background:#16293f;color:#cfd6df;text-align:center;font-size:12px;padding:22px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="#top">髙橋 さつき<small>公認心理師・人材育成講師</small></a>
+    <nav>
+      <a href="#seminar">セミナー</a>
+      <a href="#menu">メニュー</a>
+      <a href="#profile">講師紹介</a>
+      <a class="btn-s" href="#contact">お問い合わせ</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ファーストビュー -->
+<div class="hero" id="top">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">企業・団体向け研修／講座／個別相談</div>
+      <h1>人が育つ声かけで、<br><span class="em">働き続けたくなる</span><span style="display:inline-block">職場へ。</span></h1>
+      <p class="lead">応用行動分析学 × エニアグラムで、<br>若手との関わり方を、職場の「仕組み」にします。</p>
+      <a class="btn" href="#trial">まずは90分のお試しから</a>
+      <p class="by">公認心理師・人材育成講師<b>髙橋 さつき</b> <span style="font-size:12px;letter-spacing:.05em;display:inline-block">Satsuki Takahashi</span></p>
+    </div>
+    <div class="pic"><img src="img/01_hyoshi.jpg" alt="先輩スタッフが若手スタッフに笑顔で声をかけているイラスト"></div>
+  </div>
+</div>
+
+<!-- お悩み -->
+<section>
+  <div class="wrap">
+    <h2><span class="eyebrow">こんなお悩みはありませんか？</span>経営者・店長のみなさまへ</h2>
+    <div class="worry">
+      <div>
+        <ul>
+          <li>若手のやる気が見えない</li>
+          <li>何を考えているのかわからない</li>
+          <li>注意すると、黙ってしまう</li>
+          <li>育ったと思ったら、辞めてしまう</li>
+        </ul>
+        <p class="after">それは、若手の「やる気」や「性格」の問題ではないかもしれません。<br><b>関わり方を少し変えるだけで、若手は動き出します。</b></p>
+      </div>
+      <img src="img/02_owner.jpg" alt="腕を組んで考え込むオーナーのイラスト">
+    </div>
+  </div>
+</section>
+
+<!-- データ -->
+<section class="tint">
+  <div class="wrap">
+    <h2><span class="eyebrow">データで見る、いまの若手</span>やる気がないのではなく、<br><span class="em">失敗と人間関係が怖い</span></h2>
+    <div class="data">
+      <div><div class="num">49.9<small>%</small></div><p>宿泊・飲食業の大卒が<br><b>3年以内に辞める</b>割合</p><div class="vs">全業種は31.2%（約1.6倍）</div><div class="src">厚生労働省（2023年3月卒）</div></div>
+      <div><div class="num">58.4<small>%</small></div><p>失敗したくないので、<br><b>大きな仕事は任されたくない</b></p><div class="vs">「失敗から学ぶ育て方に賛成」も60.8%</div><div class="src">日本能率協会マネジメントセンター（2024）</div></div>
+      <div><div class="num">1<small>位</small></div><p>入社1年未満で辞めた理由は<br><b>「人間関係」</b></p><div class="vs">全体でも2位（26.4%）</div><div class="src">厚生労働省 若年者雇用実態調査（令和5年）</div></div>
+    </div>
+    <p class="message">だからこそ、<span class="em">関わる側の伝え方</span>が<br>若手の定着を左右します。</p>
+  </div>
+</section>
+
+<!-- 3回セミナー -->
+<section id="seminar">
+  <div class="wrap">
+    <h2><span class="eyebrow">若手育成セミナー（全3回）</span>3回のセミナーで、<br><span class="em">お店に「仕組み」を残します</span></h2>
+    <div class="steps">
+      <div class="step"><div class="k">第1回</div><div class="t">知る</div><div class="tool">エニアグラム</div><p>若手一人ひとりの「動く理由」を知ります。リーダー診断で、教える側の育て方のクセも知ります。</p><div class="left"><small>お店に残るもの</small>若手ごとの響く声かけメモ</div></div>
+      <div class="step"><div class="k">第2回</div><div class="t">関わる</div><div class="tool">行動分析学</div><p>「してほしい行動」を、誰が見ても同じに判断できる言葉にして、引き出す伝え方を練習します。</p><div class="left"><small>お店に残るもの</small>お店専用の教え方シート</div></div>
+      <div class="step"><div class="k">第3回</div><div class="t">続ける</div><div class="tool">現場で試して振り返る</div><p>60秒以内のひと言など、忙しい中でも続けられる決まりごとをつくります。</p><div class="left"><small>お店に残るもの</small>お店の声かけルール</div></div>
+    </div>
+    <div class="gaiyo">
+      <dl>
+        <dt>対象</dt><dd>若手と関わる立場の方（受講される方は貴社でお選びください）</dd>
+        <dt>時間</dt><dd>1回90〜120分（講座＋ワーク）</dd>
+        <dt>人数</dt><dd>10名まで</dd>
+        <dt>場所</dt><dd>店舗・事業所で対面（オンラインもご相談ください）</dd>
+        <dt>日時</dt><dd>営業に合わせてご相談</dd>
+        <dt>各回の間</dt><dd>2〜4週間あけて、現場で試す小さな課題に取り組みます</dd>
+        <dt>効果測定</dt><dd>受講前後のアンケート</dd>
+        <dt>料金</dt><dd>お問い合わせください</dd>
+      </dl>
+      <img src="img/07_sankoma.jpg" alt="声のかけ方を変えると若手の表情が変わっていく3コマのイラスト" style="border-radius:12px">
+    </div>
+  </div>
+</section>
+
+<!-- お試し -->
+<section class="tint" id="trial">
+  <div class="wrap">
+    <div class="trial">
+      <div>
+        <div class="lab">はじめての方へ</div>
+        <div class="ttl">お試しセミナー（90分）</div>
+        <div class="price">30,000<small>円（税別）</small></div>
+        <ul>
+          <li>リーダー診断で、ご自身の「育て方のクセ」を知ります</li>
+          <li>気になる若手1人への関わり方を、一緒に考えます</li>
+          <li>系列店の店長・責任者の方の体験にもおすすめです</li>
+        </ul>
+        <a class="btn" href="#contact">お試しを相談する</a>
+      </div>
+      <img src="img/09_seminar.jpg" alt="和室でスタッフにセミナーをしている講師のイラスト">
+    </div>
+  </div>
+</section>
+
+<!-- そのほかのメニュー -->
+<section id="menu">
+  <div class="wrap">
+    <h2><span class="eyebrow">そのほかのメニュー</span>そのほかにも、こんなことができます</h2>
+    <div class="menu">
+      <div><h3>スタッフ向けセミナー</h3><p>若手本人が、自分の強みとチームでの働き方を知ります。</p></div>
+      <div><h3>スタッフ個別面談＋タイプ診断</h3><p>一人ひとりと話して、タイプを一緒に確かめます。</p><p class="note">結果の共有は、ご本人の同意のうえで行います。</p></div>
+      <div><h3>カウンセリング</h3><p>公認心理師が、スタッフの悩みを個別にお聞きします。</p><p class="note">相談内容はお店・会社にはお伝えしません。</p></div>
+      <div><h3>オンライン開催</h3><p>遠方の店舗・事業所の方も、セミナーや面談を受けられます。</p></div>
+      <div class="ai"><h3>AI活用セミナー<span>NEW</span></h3><p>お店・会社の仕事にAIを使う方法を、一緒に手を動かして学びます。</p>
+        <ul>
+          <li>新人向けの手順書・マニュアルを短時間で作る</li>
+          <li>お品書きや商品の説明文、SNSの投稿文を作る</li>
+          <li>口コミへの返信文の下書きを作る</li>
+          <li>海外のお客様向けに、メニューや案内を多言語にする</li>
+        </ul>
+      </div>
+    </div>
+    <p class="menu-foot">内容・料金は、ご希望に合わせてご相談ください。</p>
+  </div>
+</section>
+
+<!-- 講師紹介 -->
+<section class="blue" id="profile">
+  <div class="wrap">
+    <h2><span class="eyebrow">講師紹介</span>人の行動には、かならず理由がある</h2>
+    <div class="prof">
+      <div class="photo"><img src="img/satsuki_photo.jpg" alt="髙橋さつきの写真"></div>
+      <div>
+        <div class="role-wrap">
+          <div class="name">髙橋 さつき<small>たかはし さつき</small></div>
+          <div class="role">公認心理師（国家資格）・人材育成講師</div>
+        </div>
+        <div class="story">
+          <p class="catch">「どうして動いてくれないの？」を<br>「こう伝えれば動ける」に変える専門家です。</p>
+          <p>筑波大学大学院で、人の行動のしくみを科学する<b>応用行動分析学</b>を研究しました。</p>
+          <p>20歳から15年以上、障害のあるお子さんの療育と特別支援学校での教育に携わってきました。言葉だけでは伝わらない相手と向き合う中で確かめてきたのは、<b>相手を変えようとするより、関わり方を変えるほうが、人はずっと動きやすくなる</b>ということです。</p>
+          <p>現在は、人の「動く理由」の違いがわかる<b>エニアグラム</b>と、行動分析学を組み合わせ、チームを率いるリーダーや人を育てる立場の方に向けた講座・個別セッションを行っています。AIを使った診断ツールやGPTsを自分で開発し、講座づくりや発信にも活かしています。</p>
+          <p>八戸生まれ・八戸育ち。地元で民謡歌手としても活動する、三児の母です。</p>
+        </div>
+        <div class="nums">
+          <div><b>350<small>件以上</small></b><span>オンライン個別セッション</span></div>
+          <div><b>250<small>名以上</small></b><span>心理学講座の受講者</span></div>
+        </div>
+        <div class="career">
+          <h3>経歴・主な活動</h3>
+          <ul>
+            <li>八戸市立大館中学校、青森県立八戸高等学校 卒業</li>
+            <li>筑波大学大学院 人間総合科学研究科 障害科学専攻 博士前期課程 修了（応用行動分析学を研究）</li>
+            <li>療育・特別支援学校での教育に15年以上携わる</li>
+            <li>公認心理師</li>
+            <li>リーダー向け講座「チームづくりの教科書」（3ヶ月）主宰</li>
+            <li>エニアグラム長期講座「エニアプロ」（講座＋毎月のコンサル）主宰</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 無料診断 -->
+<section class="tint">
+  <div class="wrap">
+    <div class="shindan">
+      <img src="img/06_enneagram.jpg" alt="いろいろなタイプのスタッフのイラスト">
+      <div>
+        <div class="t">リーダー診断（無料）</div>
+        <p>あなたの「育て方のクセ」が5分でわかります。セミナーの前に、まずは気軽にお試しください。</p>
+        <a class="btn ghost" href="https://satchan-cocoro.github.io/enneagram-shindan/ikusei/" target="_blank" rel="noopener">診断してみる</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- お問い合わせ -->
+<section id="contact">
+  <div class="wrap">
+    <h2>お問い合わせ</h2>
+    <p>セミナーの内容・日程・料金など、お気軽にご相談ください。<br>「まだ具体的に決まっていない」という段階でも大丈夫です。</p>
+    <div class="mailbox">
+      <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfGA5mocpSfBSP-CfTVDh9MoW3sU4xemdOpdN0P9zV5x_6z6Q/viewform" target="_blank" rel="noopener">お問い合わせフォームへ</a>
+      <div class="write" style="text-align:center">入力は約3分です</div>
+      <div class="write">フォームが使えない方は、メールでもお受けしています。<br><a id="mailbtn" href="#contact"><span id="addr">andante.no.satchan＠gmail.com</span></a></div>
+    </div>
+    <p class="small">ご紹介でお知りになった方は、ご紹介者さまからのご連絡でも大丈夫です。</p>
+  </div>
+</section>
+
+<footer>© 髙橋さつき　公認心理師・人材育成講師</footer>
+
+<script>
+// メールアドレスを自動収集されにくくするため、表示とリンクはここで組み立てる
+(function(){
+  var a=["andante","no","satchan"].join(".")+"@"+"gmail.com";
+  var s=encodeURIComponent("【セミナーのお問い合わせ】");
+  var b=encodeURIComponent("会社名・店舗名：\nお名前：\nご興味のあるメニュー：\nご希望の時期・いまのお悩み：\n");
+  document.getElementById("addr").textContent=a;
+  document.getElementById("mailbtn").href="mailto:"+a+"?subject="+s+"&body="+b;
+})();
+</script>
+</body>
+</html>
